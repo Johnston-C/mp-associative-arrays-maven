@@ -135,8 +135,10 @@ public class AssociativeArray<K, V> {
    *
    * @param key
    *   A key
+   *
    * @return
-   *   The value associated with key.
+   *   The corresponding value
+   *
    * @throws KeyNotFoundException
    *   when the key is null or does not appear in the associative array.
    */
@@ -146,12 +148,12 @@ public class AssociativeArray<K, V> {
 
   /**
    * Determine if key appears in the associative array. Should
-   * return false for the null key.
+   * return false for the null key, since it cannot appear.
    *
    * @param key
-   *   The key we want to know whether it is in the array or not.
-   * @return
-   *   If the key is present in the array.
+   *   The key we're looking for.
+   *
+   * @return true if the key appears and false otherwise.
    */
   public boolean hasKey(K key) {
     try {
@@ -168,7 +170,7 @@ public class AssociativeArray<K, V> {
    * in the associative array, does nothing.
    *
    * @param key
-   *   The key we seek to remove from the array.
+   *   The key to remove.
    */
   public void remove(K key) {
     try {
@@ -185,8 +187,7 @@ public class AssociativeArray<K, V> {
   /**
    * Determine how many key/value pairs are in the associative array.
    *
-   * @return
-   *   The length of the array.
+   * @return The number of key/value pairs in the array.
    */
   public int size() {
     return this.size;
@@ -211,7 +212,8 @@ public class AssociativeArray<K, V> {
    *   The key of the entry.
    *
    * @return
-   *   The index of the first occurance of key.
+   *   The index of the key, if found.
+   *
    * @throws KeyNotFoundException
    *   If the key does not appear in the associative array.
    */
