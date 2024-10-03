@@ -1,7 +1,8 @@
 Associative Arrays
 ==================
 
-Starter code for a CSC-207 project on associative arrays.
+Mini Project 4
+A mini project on generically typed associative arrays.
 
 **Authors**
 
@@ -12,5 +13,4 @@ Starter code for a CSC-207 project on associative arrays.
 
 * Fork created on September 26, 2024.
 
-_Students must replace the contents of this file with appropriate
-contents, including class, author, date, and URL._
+This repo can be found at <https://github.com/Johnston-C/mp-associative-arrays-maven/tree/main>
