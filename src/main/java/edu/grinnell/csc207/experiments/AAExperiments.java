@@ -8,7 +8,7 @@ import java.io.PrintWriter;
  * Experiments with Associative Arrays.
  *
  * @author Samuel A. Rebelsky
- * @author Your Name Here
+ * @author cade Johnston
  */
 public class AAExperiments {
 
