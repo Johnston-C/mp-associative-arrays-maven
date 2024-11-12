@@ -15,7 +15,7 @@ A mini project on generically typed associative arrays.
 
 **Updates**
 
-The initial version of this project was missing some author credentiation. I have added myself as an author to the following files:
+The initial version of this project was missing some author accreditation. I have added myself as an author to the following files:
 
 * AAExperiments.java
 * KVPair.java
